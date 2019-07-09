@@ -18,7 +18,7 @@ const Hero = () => (
       <p>
         Let's chat{" "}
         <a href="mailto:john.doe@gmail.com">
-          <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
+          <span style={{ color: "darkcyan" }}>john.doe@gmail.com</span>
         </a>
       </p>
     </div>
@@ -29,7 +29,7 @@ const Hero = () => (
 )
 
 const jumbo_styles = {
-  backgroundColor: "#fff",
+  backgroundColor: "MintCream",
   paddingLeft: "1rem",
 }
 

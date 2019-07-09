@@ -22,7 +22,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: blueviolet;
+  color: darkcyan;
 }
 
 .link_styles {
@@ -30,14 +30,14 @@ a:link {
 }
 
 .link_styles:hover {
-  color: blueviolet;
+  color: darkcyan;
 }
 
-.blueViolet {
-  color: blueviolet;
+.darkcyan {
+  color: darkcyan;
 }
 
-.blueViolet:hover {
+.darkcyan:hover {
   color: white;
 }
 

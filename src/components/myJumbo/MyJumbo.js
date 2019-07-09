@@ -5,10 +5,10 @@ import { Jumbotron } from "react-bootstrap"
 
 import "./myJumbo.css"
 
-/*########### PROPS ########## 
+/*########### PROPS ##########
 title: The title of the jumbotron
 body: The body of the Jumbotron
-body2: 
+body2:
 */
 
 const MyJumbo = props => (
@@ -27,7 +27,7 @@ const MyJumbo = props => (
 )
 
 const myjumbo_styles = {
-  backgroundColor: "#fff",
+  backgroundColor: "MintCream",
 }
 
 export default MyJumbo

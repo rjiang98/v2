@@ -15,7 +15,7 @@ const MyNavbar = () => (
     >
       <ul className="nav_styles">
         <li className="float_left">
-          <i className="fas fa-frog" />
+          <i className="fas fa-laptop-code" />
         </li>
         <li className="float_right">
           {/* eslint-disable-next-line */}
