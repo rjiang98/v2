@@ -1,6 +1,6 @@
 .project_container {
   border-style: solid;
-  border-color: #f0f0f0;
+  border-color: darkcyan;
   border-radius: 0.5rem;
   padding-top: 0.4rem;
   padding-left: 0.4rem;
@@ -8,6 +8,7 @@
   padding-bottom: 0.4rem;
   margin-bottom: 2rem;
   width: 100%;
+  background-color: white;
 }
 
 .underline {
