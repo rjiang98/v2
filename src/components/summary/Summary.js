@@ -22,21 +22,21 @@ const Summary = () => (
         <span>React.js</span>
       </Col>
       <Col>
-        <i className="fab fa-html5 hover_effect" />
+        <i className="fab fa-aws hover_effect" />
         <br />
-        <span>HTML5</span>
+        <span>Cloud Services</span>
       </Col>
       <Col>
-        <i className="fab fa-css3 hover_effect" />
+        <i className="fab fa-java hover_effect" />
         <br />
-        <span>CSS3</span>
+        <span>Java</span>
       </Col>
     </Row>
     <br />
 
     <h4 className="goal_text text-center">
-      My biggest goal as an Engineer is to never stop learning, and work on cool
-      stuff. Here's a couple of things I'm good at:
+      As a developer and aspiring educator, I live to never stop learning and never stop teaching.
+      Here's a couple of things I'm good at:
     </h4>
     <Row style={{ marginTop: "1.8rem" }}>
       <Col>

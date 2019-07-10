@@ -8,25 +8,24 @@ import SocialRow from "../SocialRow/SocialRow"
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <h1>Hey, I'm a Software developer from Gitland, living in ACME City.</h1>
+      <h1>Hey, I'm a software developer from Portland, studying in Seattle.</h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
-        design and hack noice websites together on the internet.
+        Right now I'm using Javascript, React.js and C# to
+        build a better user experience at Microsoft.
       </h3>
       <p>Have anything you'd like to discuss?</p>
       <p>
-        Let's chat! You can find me by clicking anywhere below.{" "}
+        Let's chat! You can find me by clicking anywhere below.
       </p>
+      <SocialRow color="#000"/>
     </div>
-    <SocialRow color="#000"/>
   </Jumbotron>
 )
 
 const jumbo_styles = {
   backgroundColor: "MintCream",
   paddingLeft: "1rem",
-  paddingBottom: "1rem",
 }
 
 export default Hero

@@ -23,7 +23,7 @@ export default () => (
       <hr />
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-          <MyButton text={"Resume"} URL={CV} size={"12"} />
+          <MyButton text={"Resume"} URL={CV} size={"12"} on={true} target={"_blank"}/>
         </Row>
         <Row>
           <Col>

@@ -33,7 +33,7 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            <MyButton text={props.button} URL={props.URL} size={"11"}/>
+            <MyButton text={props.button} URL={props.URL} size={"11"} on={props.on} target={props.target}/>
           </Row>
         </Col>
       </Row>

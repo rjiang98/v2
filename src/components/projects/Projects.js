@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container } from "react-bootstrap"
 import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
+import MyButton from "../myButton/MyButton"
 
-import image from "../../images/portfolio/cabin.png"
+import image from "../../images/portfolio/pts.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,17 +20,17 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"Cool React app"}
-        date={"2019-03-28"}
+        title={"Path to Success | A Data Visualization"}
+        date={"December 2018"}
         description={
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
+          ""
         }
-        button={"Link"}
-        URL={"https://github.com/"}
+        button={"Check it out!"}
+        on={true}
+        URL={"https://cse442-18f.github.io/fp-the-path-to-success/"}
+        target={"_blank"}
       />
-      <Link to="/projects" className="darkcyan">
-        Go to Projects page ---->
-      </Link>
+      <MyButton on={true} size={"6"} URL={"/projects"} text="Go to Projects Page -->"/>
     </Container>
   </React.Fragment>
 )
