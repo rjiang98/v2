@@ -19,7 +19,7 @@ const ProjectCard = props => {
         <Col>
           <img
             src={props.imageSrcPath}
-            alt={"Smiley face"}
+            alt={""}
             style={{ maxWidth: "100%" }}
           />
         </Col>
@@ -33,8 +33,7 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            <MyButton text={"Source Code"} URL={props.sourceURL} />
-            <MyButton text={"Hosted App"} URL={props.hostedURL} />
+            <MyButton text={props.button} URL={props.URL} size={"11"}/>
           </Row>
         </Col>
       </Row>

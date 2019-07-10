@@ -73,12 +73,12 @@ export default () => (
       {/* TODO: Move the project objects into an array and map through them below. DRY is better. */}
 
       <Container style={{ marginTop: "2.5rem" }}>
-        {/*/Props: 
-      //imageSrcPath: the path to the image used 
-      //title: The title of the card/App 
+        {/*/Props:
+      //imageSrcPath: the path to the image used
+      //title: The title of the card/App
       //date: The date of the card
-      //description: Short description of the card 
-      //sourceURL: URL to the source code of the project 
+      //description: Short description of the card
+      //sourceURL: URL to the source code of the project
       //hostedURL: URL to the hosted version of the app*/}
         <Row>
           <Col>
@@ -87,8 +87,8 @@ export default () => (
               title={project1.title}
               date={project1.date}
               description={project1.decription}
-              sourceURL={project1.sourceURL}
-              hostedURL={project1.hostedURL}
+              button={"Link"}
+              URL={project1.sourceURL}
             />
           </Col>
         </Row>
@@ -99,8 +99,8 @@ export default () => (
               title={project2.title}
               date={project2.date}
               description={project2.decription}
-              sourceURL={project2.sourceURL}
-              hostedURL={project2.hostedURL}
+              button={"Link"}
+              URL={project2.sourceURL}
             />
           </Col>
         </Row>
@@ -111,8 +111,8 @@ export default () => (
               title={project3.title}
               date={project3.date}
               description={project3.decription}
-              sourceURL={project3.sourceURL}
-              hostedURL={project3.hostedURL}
+              button={"Link"}
+              URL={project3.sourceURL}
             />
           </Col>
         </Row>

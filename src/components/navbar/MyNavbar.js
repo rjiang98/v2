@@ -18,15 +18,9 @@ const MyNavbar = () => (
           <i className="fas fa-laptop-code" />
         </li>
         <li className="float_right">
-          {/* eslint-disable-next-line */}
-          <a
-            href="https://www.github.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="menu_link"
-          >
-            GitHub
-          </a>
+          <Link to="/blog" className="menu_link">
+            Blog
+          </Link>
         </li>
         <li className="float_right">
           <Link to="/projects" className="menu_link">

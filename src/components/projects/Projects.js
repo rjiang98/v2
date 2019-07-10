@@ -11,12 +11,12 @@ const Projects = () => (
   <React.Fragment>
     <Container fluid>
       <h3 style={{ marginBottom: "1rem" }}> Latest Projects</h3>
-      {/*/Props: 
-      //imageSrcPath: the path to the image used 
-      //title: The title of the card/App 
+      {/*/Props:
+      //imageSrcPath: the path to the image used
+      //title: The title of the card/App
       //date: The date of the card
-      //description: Short description of the card 
-      //sourceURL: URL to the source code of the project 
+      //description: Short description of the card
+      //sourceURL: URL to the source code of the project
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
@@ -25,8 +25,8 @@ const Projects = () => (
         description={
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
         }
-        sourceURL={"https://github.com/"}
-        hostedURL={"http://www.google.com"}
+        button={"Link"}
+        URL={"https://github.com/"}
       />
       <Link to="/projects" className="darkcyan">
         Go to Projects page ---->
