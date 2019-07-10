@@ -3,25 +3,7 @@ a {
   color: "#fff";
 }
 
-.footer_social {
-  color: #fff;
-}
-
-.footer_social {
-  margin-top: 4rem;
-  max-width: 100%;
-}
-
-.footer_social i {
-  font-size: 2rem;
-  color: #fff;
-}
-
-a:link {
-  color: white;
-}
-
-.hover_effect:hover {
+span {
   color: darkcyan;
 }
 

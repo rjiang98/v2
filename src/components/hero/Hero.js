@@ -14,23 +14,19 @@ const Hero = () => (
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
       </h3>
-      <p>Have a project you'd like to discuss?</p>
+      <p>Have anything you'd like to discuss?</p>
       <p>
-        Let's chat{" "}
-        <a href="mailto:john.doe@gmail.com">
-          <span style={{ color: "darkcyan" }}>john.doe@gmail.com</span>
-        </a>
+        Let's chat! You can find me by clicking anywhere below.{" "}
       </p>
     </div>
-    <div>
-      <SocialRow />
-    </div>
+    <SocialRow color="#000"/>
   </Jumbotron>
 )
 
 const jumbo_styles = {
   backgroundColor: "MintCream",
   paddingLeft: "1rem",
+  paddingBottom: "1rem",
 }
 
 export default Hero

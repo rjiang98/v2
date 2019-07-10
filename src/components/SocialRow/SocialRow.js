@@ -3,69 +3,38 @@ import { Row, Col } from "react-bootstrap"
 
 import "./socialRow.css"
 
-export default () => (
+export default props => (
   <Row className="jumbo_social text-center">
     <Col>
       <a
-        style={{ color: "#000" }}
-        href="https://www.github.com/"
+        style={{ color: props.color }}
+        href="https://www.github.com/rjiang98/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i className="fab fa-github hover_effect" />
       </a>
     </Col>
+
     <Col>
       <a
-        style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        style={{ color: props.color }}
+        href="https://www.linkedin.com/in/richard-jiang98/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i className="fab fa-linkedin hover_effect" />
       </a>
     </Col>
-    <Col>
-      <a
-        style={{ color: "#000" }}
-        href="https://twitter.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-twitter hover_effect" />
-      </a>
-    </Col>
 
     <Col>
       <a
-        style={{ color: "#000" }}
-        href="https://www.instagram.com/"
+        style={{ color: props.color }}
+        href="mailto:rjiang98@cs.washington.edu"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-instagram hover_effect" />
-      </a>
-    </Col>
-
-    <Col>
-      <a
-        style={{ color: "#000" }}
-        className="hover_effect"
-        href="https://www.hackerrank.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-hackerrank hover_effect" />
-      </a>
-    </Col>
-    <Col>
-      <a
-        style={{ color: "#000" }}
-        href="https://angel.co/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-angellist hover_effect" />
+        <i className="fas fa-envelope hover_effect" />
       </a>
     </Col>
   </Row>
