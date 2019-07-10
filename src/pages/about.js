@@ -8,7 +8,7 @@ import "./index.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import CV from "../Richard_Jiang_Resume.pdf" //Import you CV file here!
+import CV from "../../static/Richard_Jiang_Resume.pdf" //Import you CV file here!
 
 export default () => (
   <div className="App">
