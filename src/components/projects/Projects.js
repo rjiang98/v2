@@ -23,14 +23,14 @@ const Projects = () => (
         title={"Path to Success | A Data Visualization"}
         date={"December 2018"}
         description={
-          ""
+          "Together with some frends of mine, we tell a story of higher education in the United States through various data visualizations. We built the expierence with HTML and CSS using D3.js for the visualizations."
         }
         button={"Check it out!"}
         on={true}
         URL={"https://cse442-18f.github.io/fp-the-path-to-success/"}
         target={"_blank"}
       />
-      <MyButton on={true} size={"6"} URL={"/projects"} text="Go to Projects Page -->"/>
+      <MyButton on={true} size={"12"} URL={"/projects"} text="Go to Projects Page -->"/>
     </Container>
   </React.Fragment>
 )

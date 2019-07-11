@@ -6,34 +6,9 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import project1Picture from "../images/portfolio/cabin.png"
+import project1 from "../images/portfolio/pts.png"
 import project2Picture from "../images/portfolio/cake.png"
 import project3Picture from "../images/portfolio/game.png"
-
-/*######### PROJECT OBJECTS TEMPLATE################
-import projectPicture from ""
-const projectProject = {
-  title: "",
-  date: "",
-  decription: "",
-  sourceURL: "",
-  hostedURL: "",
-}
-#####################################################
-*/
-
-//TODO: Make this into an array with objects and map through them instead down below.
-
-//Project 1
-
-const project1 = {
-  title: "Cool React app",
-  date: "2019-03-28",
-  decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com",
-  hostedURL: "http://www.google.com",
-}
 
 //Project 2
 
@@ -60,35 +35,42 @@ const project3 = {
 export default () => (
   <div className="App">
     <Layout>
-      {/*########### MyJumbo PROPS ##########
-    title: The title of the jumbotron
-    body: The body of the Jumbotron
-    */}
       <MyJumbo
         title={"Projects Portfolio"}
         body={"I think the best way of learning is by building Stuff."}
       />
       <hr />
 
-      {/* TODO: Move the project objects into an array and map through them below. DRY is better. */}
-
       <Container style={{ marginTop: "2.5rem" }}>
-        {/*/Props:
-      //imageSrcPath: the path to the image used
-      //title: The title of the card/App
-      //date: The date of the card
-      //description: Short description of the card
-      //sourceURL: URL to the source code of the project
-      //hostedURL: URL to the hosted version of the app*/}
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project1Picture}
-              title={project1.title}
-              date={project1.date}
-              description={project1.decription}
-              button={"Link"}
-              URL={project1.sourceURL}
+              imageSrcPath={project2Picture}
+              title={"This Personal Website!"}
+              date={"July 2019"}
+              description={
+                "https://github.com/rjiang98/v2"
+              }
+              button={"Check it out!"}
+              on={true}
+              URL={"https://github.com/rjiang98/v2"}
+              target={"_blank"}
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={project1}
+              title={"Path to Success | A Data Visualization"}
+              date={"December 2018"}
+              description={
+                "Together with some frends of mine, we tell a story of higher education in the United States through various data visualizations. We built the expierence with HTML and CSS using D3.js for the visualizations."
+              }
+              button={"Check it out!"}
+              on={true}
+              URL={"https://cse442-18f.github.io/fp-the-path-to-success/"}
+              target={"_blank"}
             />
           </Col>
         </Row>
@@ -96,11 +78,15 @@ export default () => (
           <Col>
             <ProjectCard
               imageSrcPath={project2Picture}
-              title={project2.title}
-              date={project2.date}
-              description={project2.decription}
-              button={"Link"}
-              URL={project2.sourceURL}
+              title={"Deal Finder | Alexa App"}
+              date={"August 2018"}
+              description={
+                "https://github.com/rjiang98/deal-finder"
+              }
+              button={"Check it out!"}
+              on={true}
+              URL={"https://github.com/rjiang98/deal-finder"}
+              target={"_blank"}
             />
           </Col>
         </Row>
@@ -108,11 +94,15 @@ export default () => (
           <Col>
             <ProjectCard
               imageSrcPath={project3Picture}
-              title={project3.title}
-              date={project3.date}
-              description={project3.decription}
-              button={"Link"}
-              URL={project3.sourceURL}
+              title={"Analysis of Police Shootings"}
+              date={"October 2017"}
+              description={
+                "Another much earlier data visualization, this time using R for data wrangling and creating graphs and Shiny build our website. The data was sourced from 538."
+              }
+              button={"Check it out!"}
+              on={true}
+              URL={"https://gcai47.shinyapps.io/final-project-air-force-1/"}
+              target={"_blank"}
             />
           </Col>
         </Row>

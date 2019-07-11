@@ -15,12 +15,9 @@ const MyNavbar = () => (
     >
       <ul className="nav_styles">
         <li className="float_left">
-          <i className="fas fa-laptop-code" />
-        </li>
-        <li className="float_right">
-          <Link to="/blog" className="menu_link">
-            Blog
-          </Link>
+          <a href="/" style={{ color: "#000" }}>
+            <i className="fas fa-laptop-code" />
+          </a>
         </li>
         <li className="float_right">
           <Link to="/projects" className="menu_link">
