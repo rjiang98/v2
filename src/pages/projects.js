@@ -6,31 +6,10 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import project1 from "../images/portfolio/pts.png"
-import project2Picture from "../images/portfolio/cake.png"
-import project3Picture from "../images/portfolio/game.png"
-
-//Project 2
-
-const project2 = {
-  title: "Project 2 title",
-  date: "2019-03-03",
-  decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
-}
-
-//Project 3
-
-const project3 = {
-  title: "Project 3 title",
-  date: "2019-02-12",
-  decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
-}
+import pts from "../images/portfolio/pts.png"
+import aps from "../images/portfolio/aps.png"
+import ppw from "../images/portfolio/ppw.png"
+import df from "../images/portfolio/df.png"
 
 export default () => (
   <div className="App">
@@ -45,11 +24,11 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project2Picture}
-              title={"This Personal Website!"}
+              imageSrcPath={ppw}
+              title={"Personal Portfolio Website"}
               date={"July 2019"}
               description={
-                "https://github.com/rjiang98/v2"
+                ""
               }
               button={"Check it out!"}
               on={true}
@@ -61,7 +40,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project1}
+              imageSrcPath={pts}
               title={"Path to Success | A Data Visualization"}
               date={"December 2018"}
               description={
@@ -77,11 +56,11 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project2Picture}
+              imageSrcPath={df}
               title={"Deal Finder | Alexa App"}
               date={"August 2018"}
               description={
-                "https://github.com/rjiang98/deal-finder"
+                ""
               }
               button={"Check it out!"}
               on={true}
@@ -93,7 +72,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project3Picture}
+              imageSrcPath={aps}
               title={"Analysis of Police Shootings"}
               date={"October 2017"}
               description={

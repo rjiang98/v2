@@ -52,21 +52,20 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the career section*/}
         <Row>
           <Col>
-            <h3>Past work experience</h3>
+            <h3>Work Experience</h3>
           </Col>
         </Row>
-        {/* Position number 1*/}
+        <hr />
         <Row>
           <Col>
-            <h5>Software Engineer</h5>
+            <h5>Software Engineer Intern</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME Studios, Roadrunner City, US</Col>
-          <Col>2015.09 - 2019.01</Col>
+          <Col>Microsoft, Redmond, WA</Col>
+          <Col>06/2019 - 09/2019</Col>
         </Row>
         <Row>
           <Col>
@@ -79,15 +78,14 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* SW intern Position*/}
         <Row>
           <Col>
-            <h5>Software Engineer Intern</h5>
+            <h5>Software Development Engineer Intern</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Mip Mip Co LTD, Roadrunner City, US&A</Col>
-          <Col>2014.06 - 2014.09</Col>
+          <Col>Amazon Web Services, Seattle, WA</Col>
+          <Col>06/2018 - 09/2018</Col>
         </Row>
         <Row>
           <Col>
@@ -100,26 +98,25 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the education section*/}
         <Row>
           <Col>
             <h3>Education</h3>
           </Col>
         </Row>
-        {/* Masters Degreee*/}
+        <hr />
         <Row>
           <Col>
-            <h5>MSc. ACME studies</h5>
+            <h5>Bachelors & Masters of Science, Computer Science</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME University, ACME City, US</Col>
-          <Col>2009.08 - 2015.08</Col>
+          <Col>University of Washington, Seattle</Col>
+          <Col>09/2016 - 06/2021</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              <strong>Specialization:</strong>
+              <strong>GPA: 3.9</strong>
               <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Tenetur quasi fugit accusamus officia sequi optio nulla,
               cupiditate in vitae natus odit nihil commodi corrupti mollitia

@@ -36,7 +36,7 @@ const Summary = () => (
 
     <h4 className="goal_text text-center">
       As a developer and aspiring educator, I live to never stop learning and never stop teaching.
-      Here's a couple of things I'm good at:
+      Here are a couple of things I'm good at:
     </h4>
     <Row style={{ marginTop: "1.8rem" }}>
       <Col>
