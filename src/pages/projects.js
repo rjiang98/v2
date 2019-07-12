@@ -7,8 +7,8 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 import "./index.css"
 
 import pts from "../images/portfolio/pts.png"
-import aps from "../images/portfolio/aps.png"
-import ppw from "../images/portfolio/ppw.png"
+import apk from "../images/portfolio/apk.png"
+import pps from "../images/portfolio/pps.png"
 import df from "../images/portfolio/df.png"
 
 export default () => (
@@ -24,7 +24,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={ppw}
+              imageSrcPath={pps}
               title={"Personal Portfolio Website"}
               date={"July 2019"}
               description={
@@ -72,7 +72,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={aps}
+              imageSrcPath={apk}
               title={"Analysis of Police Shootings"}
               date={"October 2017"}
               description={
