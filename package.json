@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-clean-portfolio",
+  "name": "Richard Jiang Website",
   "private": true,
-  "description": "A clean portfolio built with gatsby.js",
+  "description": "Personal Portfolio Website for Richard Jiang",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

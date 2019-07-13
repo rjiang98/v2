@@ -12,7 +12,6 @@ module.exports = {
       options: {
         logo: "./src/favicon.png",
 
-        // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
         appDescription: null,
         developerName: null,
