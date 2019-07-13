@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import MyButton from "../components/myButton/MyButton"
+import Position from "../components/position/Position"
 
 import "../fontawesome/css/all.min.css"
 import "./index.css"
@@ -15,41 +16,14 @@ export default () => (
     <Layout>
       <MyJumbo
         body={
-          "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
+          "If you're looking for an endlessly curious developer with proven group communication skills, that's me!"
         }
-        body2={"I can also do this cool thing if that's... needed."}
+        body2={"Bad puns and jokes come as a package deal, free of charge."}
         title={"tldr; About me."}
       />
-      <hr />
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
           <MyButton text={"Resume"} URL={CV} size={"12"} on={true} target={"_blank"}/>
-        </Row>
-        <Row>
-          <Col>
-            <h3>Summary</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
-            <br />
-            <p>
-              I'm a Software Engineer building noice Websites on the internet.
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              pariatur nobis ipsa laborum quae, fuga vel a, dolor consectetur
-              blanditiis explicabo dolorem quos sunt voluptatibus dicta commodi
-              temporibus magnam placeat.
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              consequuntur. Numquam quaerat hic eum, earum perferendis totam!
-              Fugiat, explicabo placeat labore voluptatum voluptas numquam
-              repudiandae delectus animi dolorem consequatur. Reiciendis?
-            </p>
-          </Col>
         </Row>
         <hr />
         <Row>
@@ -58,45 +32,32 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col>
-            <h5>Software Engineer Intern</h5>
-          </Col>
-        </Row>
-        <Row>
-          <Col>Microsoft, Redmond, WA</Col>
-          <Col>06/2019 - 09/2019</Col>
-        </Row>
-        <Row>
-          <Col>
-            <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iure
-              nisi consequuntur provident officia odio vitae, nam neque natus
-              debitis earum facere, quibusdam similique itaque sed, cumque
-              aliquam voluptas quos.
-            </p>
-          </Col>
-        </Row>
+        <Position
+          title="Software Engineer Intern"
+          location="Microsoft, Redmond, WA"
+          date="06/2019 - 09/2019"
+          description="Part of the Office Licensing team, working to give users the best experience acquiring Office. I am using TypeScript, React.js, and C# to build a PWA to help user configure their Office experience on startup. This could be activating an exisitng subscription, setting up a trial, or notifying users that their school or company provides a free license."
+        />
+        <hr />
+        <Position
+          title="Software Development Engineer Intern"
+          location="Amazon Web Services, Seattle, WA"
+          date="06/2018 - 09/2018"
+          description="Worked on data center montioring, creating solutions that ensure the reliability of servers. I designed and implemented a self service control plane for an existing service that monitored data center health, allowing users to add their own metrics to track. The service was constructed with Java and various AWS services like Lambda, S3, APIGateway, and Cloud Formation."
+        />
         <hr />
         <Row>
           <Col>
-            <h5>Software Development Engineer Intern</h5>
+            <h3>Teaching Experience</h3>
           </Col>
         </Row>
-        <Row>
-          <Col>Amazon Web Services, Seattle, WA</Col>
-          <Col>06/2018 - 09/2018</Col>
-        </Row>
-        <Row>
-          <Col>
-            <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              ullam eius nihil porro itaque nobis facere. Impedit eos minima
-              porro. Culpa, laboriosam! Qui quo provident aperiam et ullam odio
-              ex.
-            </p>
-          </Col>
-        </Row>
+        <hr />
+        <Position
+          title="Undergraduate Teaching Assistant"
+          location="University of Washington, Seattle, WA"
+          date="09/2018 - Present"
+          description="2 time TA for Data Structures & Parallelism, 1 time TA for Hardware Software Interface at the University of Washington. My responsibilities include leading a weekly section and office hours, organizing exam review session, creating exercises and exam problems, and running course infrastructure. As a TA I have worked with groups of students of varying sizes and skill levels."
+        />
         <hr />
         <Row>
           <Col>
@@ -104,26 +65,12 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col>
-            <h5>Bachelors & Masters of Science, Computer Science</h5>
-          </Col>
-        </Row>
-        <Row>
-          <Col>University of Washington, Seattle</Col>
-          <Col>09/2016 - 06/2021</Col>
-        </Row>
-        <Row>
-          <Col>
-            <p style={{ marginTop: "1rem" }}>
-              <strong>GPA: 3.9</strong>
-              <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Tenetur quasi fugit accusamus officia sequi optio nulla,
-              cupiditate in vitae natus odit nihil commodi corrupti mollitia
-              necessitatibus iure eius praesentium? Fugit!
-            </p>
-          </Col>
-        </Row>
+        <Position
+          title="Bachelors & Masters of Science, Computer Science"
+          location="University of Washington, Seattle, WA"
+          date="9/2016 - 06/2021"
+          description="3.90 GPA, student in the Paul G. Allen School of Computer Science & Engineering, combined BS/MS program"
+        />
       </Container>
     </Layout>
   </div>

@@ -12,7 +12,7 @@ const Hero = () => (
       <br />
       <h3>
         Right now I'm using Javascript, React.js and C# to
-        build a better user experience at Microsoft.
+        build better user experiences at Microsoft.
       </h3>
       <p>Have anything you'd like to discuss?</p>
       <p>

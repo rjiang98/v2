@@ -16,7 +16,7 @@ export default () => (
     <Layout>
       <MyJumbo
         title={"Projects Portfolio"}
-        body={"I think the best way of learning is by building Stuff."}
+        body={"Here is where I showcase some of my work!"}
       />
       <hr />
 
@@ -28,7 +28,7 @@ export default () => (
               title={"Personal Portfolio Website"}
               date={"July 2019"}
               description={
-                ""
+                "This site is a project of mine to learn web development on my own. I built it with React.js and Gatsby. It is deployed and hosted through Netlify. There a lot more website to come!"
               }
               button={"Check it out!"}
               on={true}
@@ -60,7 +60,7 @@ export default () => (
               title={"Deal Finder | Alexa App"}
               date={"August 2018"}
               description={
-                ""
+                "A cool hackathon project built with some fellow interns. Deal Finder is an Alexa app that finds good deals when prompted with a category and/or a location. The app model is built with the Alexa Skills kit and is supported with a Node.js Lambda backend."
               }
               button={"Check it out!"}
               on={true}
