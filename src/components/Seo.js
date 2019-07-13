@@ -90,7 +90,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  keywords: ["Richard", "Jiang", "Software Developer", "Seattle", "University of Washington", "Computer Science", "CS", "UW", "Educator", "Developer", "Teacher", "TA"],
   description: `Add your meta information here!.`,
 }
 
