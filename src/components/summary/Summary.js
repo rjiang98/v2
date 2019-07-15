@@ -34,58 +34,69 @@ const Summary = () => (
     </Row>
     <br />
 
-    <h4 className="goal_text text-center">
-      As a developer and aspiring educator, I live to never stop learning and never stop teaching.
-      Here are a couple of things I'm good at:
+    <h4 className="text-center">
+      As a developer and aspiring educator, my motto is
     </h4>
-    <Row style={{ marginTop: "1.8rem" }}>
-      <Col>
-        <h4 className="hover_effect">Tagline1</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem quod maiores maxime suscipit assumenda vitae, incidunt
-          doloremque ab voluptate, atque explicabo ea adipisci. Et quibusdam
-          odit expedita quis officia minima!
-        </p>
-      </Col>
-      <Col>
-        <h4 className="hover_effect">Tagline2</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi
-          reiciendis. Placeat quia facilis neque, corporis ullam maiores eaque
-          quos autem voluptatibus, minus totam animi quo sint ea, atque sit?
-        </p>
-      </Col>
-    </Row>
     <br />
-    <Row>
-      <Col>
-        <h4 className="hover_effect">Tagline3</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-          consequuntur. Ipsum deserunt veniam molestias odio rerum repudiandae
-          officia quasi magnam at sint, amet commodi ad quisquam explicabo ab
-          quia saepe?
-        </p>
-      </Col>
-      <Col>
-        <h4 className="hover_effect">Tagline4</h4>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
-          excepturi odio illum accusamus eum optio voluptatum corporis beatae
-          impedit, molestias maxime obcaecati totam maiores eius voluptate ex
-          animi minus aperiam!
-        </p>
-      </Col>
-    </Row>
+    <h3 className="text-center" style={{color:"darkcyan"}}>
+      "Never stop learning and never stop teaching"
+    </h3>
     <br />
-    <h4 className="goal_text text-center">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem
-      praesentium tenetur blanditiis repellendus facilis maiores ducimus cumque,
-      nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero
-      error mollitia.
-    </h4>
+    <h5 className="text-center">
+      I aim to bring a collborative and open-mindedness culture everywhere I go. My goal is to positively
+      impact others through my work, whether that be through a software solution that improves a customer's
+      experience or by educating others and helping them find their passions.
+    </h5>
   </Container>
 )
 
 export default Summary
+
+
+// <Row style={{ marginTop: "1.8rem" }}>
+//   <Col>
+//     <h4 className="hover_effect">Tagline1</h4>
+//     <p>
+//       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+//       Exercitationem quod maiores maxime suscipit assumenda vitae, incidunt
+//       doloremque ab voluptate, atque explicabo ea adipisci. Et quibusdam
+//       odit expedita quis officia minima!
+//     </p>
+//   </Col>
+//   <Col>
+//     <h4 className="hover_effect">Tagline2</h4>
+//     <p>
+//       Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi
+//       reiciendis. Placeat quia facilis neque, corporis ullam maiores eaque
+//       quos autem voluptatibus, minus totam animi quo sint ea, atque sit?
+//     </p>
+//   </Col>
+// </Row>
+// <br />
+// <Row>
+//   <Col>
+//     <h4 className="hover_effect">Tagline3</h4>
+//     <p>
+//       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+//       consequuntur. Ipsum deserunt veniam molestias odio rerum repudiandae
+//       officia quasi magnam at sint, amet commodi ad quisquam explicabo ab
+//       quia saepe?
+//     </p>
+//   </Col>
+//   <Col>
+//     <h4 className="hover_effect">Tagline4</h4>
+//     <p>
+//       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+//       excepturi odio illum accusamus eum optio voluptatum corporis beatae
+//       impedit, molestias maxime obcaecati totam maiores eius voluptate ex
+//       animi minus aperiam!
+//     </p>
+//   </Col>
+// </Row>
+// <br />
+// <h4 className="goal_text text-center">
+//   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem
+//   praesentium tenetur blanditiis repellendus facilis maiores ducimus cumque,
+//   nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero
+//   error mollitia.
+// </h4>
