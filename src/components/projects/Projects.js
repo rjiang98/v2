@@ -5,7 +5,7 @@ import "./projects.css"
 import ProjectCard from "../portProjectCard/ProjectCard"
 import MyButton from "../myButton/MyButton"
 
-import image from "../../images/portfolio/pts.png"
+import image from "../../images/portfolio/dl.jpg"
 
 const Projects = () => (
   <React.Fragment>
@@ -13,14 +13,14 @@ const Projects = () => (
       <h3 style={{ marginBottom: "1rem" }}> Featured Project</h3>
       <ProjectCard
         imageSrcPath={image}
-        title={"Path to Success | A Data Visualization"}
-        date={"December 2018"}
+        title={"Neural Style Transfer"}
+        date={"December 2019"}
         description={
-          "Together with some frends of mine, we tell a story of higher education in the United States through various data visualizations. We built the expierence with HTML and CSS using D3.js for the visualizations."
+          "Using Pytorch, my friends and I explored neural style transfer, the idea of using a pre-trained deep neural network to transfer the style of one image onto another. I designed a new loss function and wrote code to combine more than 1 styles onto a content image."
         }
         button={"Check it out!"}
         on={true}
-        URL={"https://cse442-18f.github.io/fp-the-path-to-success/"}
+        URL={"https://github.com/rjiang98/DL-Project"}
         target={"_blank"}
       />
       <MyButton on={true} size={"12"} URL={"/projects"} text="Go to Projects Page -->"/>

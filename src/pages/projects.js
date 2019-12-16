@@ -6,6 +6,7 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
+import dl from "../images/portfolio/dl.jpg"
 import pts from "../images/portfolio/pts.png"
 import apk from "../images/portfolio/apk.png"
 import pps from "../images/portfolio/pps.png"
@@ -21,6 +22,22 @@ export default () => (
       <hr />
 
       <Container style={{ marginTop: "2.5rem" }}>
+      <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={dl}
+              title={"Neural Style Transfer"}
+              date={"December 2019"}
+              description={
+                "Using Pytorch, my friends and I explored neural style transfer, the idea of using a pre-trained deep neural network to transfer the style of one image onto another. I designed a new loss function and wrote code to combine more than 1 styles onto a content image."
+              }
+              button={"Check it out!"}
+              on={true}
+              URL={"https://github.com/rjiang98/DL-Project"}
+              target={"_blank"}
+            />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <ProjectCard
